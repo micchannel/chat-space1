@@ -54,7 +54,7 @@ Things you may want to cover:
 - has_one :group_name
 - has_one :group_id
 
-
+ 
 ## groups_usersテーブル
 |Column|Type|Options|
 |------|----|-------|
