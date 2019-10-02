@@ -41,6 +41,7 @@ Things you may want to cover:
 - belongs_to :group
 - has_many :message
 
+
 ## groupsテーブル
 |Column|Type|Options|
 |------|----|-------|
@@ -52,7 +53,6 @@ Things you may want to cover:
 - has_many :user
 - has_one :group_name
 - has_one :group_id
-
 
 
 ## groups_usersテーブル
