@@ -45,11 +45,14 @@ Things you may want to cover:
 |Column|Type|Options|
 |------|----|-------|
 |user_id|integer|null: false, foreign_key: true|
-|group_name|integer|null: false, foreign_key: true|
+|group_name|string|null: false, foreign_key: true|
+|group_id|integer|null: false, foreign_key: true|
 
 ### Association
 - has_many :user
 - has_one :group_name
+- has_one :group_id
+
 
 
 ## groups_usersテーブル
