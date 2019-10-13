@@ -1,0 +1,26 @@
+.header
+  .header__logo
+    グループを作成しました
+.contents
+  .contents__left
+    .contents__left__top
+      グループ一覧
+      =link_to "https://www.facebook.com/", class: "contents__btn contents__btn--facebook" do
+        = fa_icon 'facebook', class: "contents__btn--icon"
+        %span<>
+    ここは本文だよ〜
+
+  .contents__message
+    Hello!! World
+  =link_to "https://www.facebook.com/", class: "contents__btn contents__btn--facebook" do
+    = fa_icon 'facebook', class: "contents__btn--icon"
+    %span<>
+    Facebook
+  =link_to "https://twitter.com/", class: "contents__btn contents__btn--twitter" do
+    = fa_icon 'twitter', class: "contents__btn--icon"
+    %span<>
+    Twitter
+  =link_to "https://www.instagram.com/", class: "contents__btn contents__btn--instagram" do
+    = fa_icon 'instagram', class: "contents__btn--icon"
+    %span<>
+    Instagram

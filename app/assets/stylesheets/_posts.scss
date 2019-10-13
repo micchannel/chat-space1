@@ -1,0 +1,32 @@
+.header {
+  height: 28px;
+  background-color: #38AEF0;
+  color: #ffffff;
+  &__logo {
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    z-index: 100;
+  }
+}
+
+.contents {
+  height: 100vh;
+  &__left{
+    &__top{
+      width: 300px;
+      height: 82px;
+      background-color: #253141;
+      position: fixed;
+      }
+    width:300px;
+    height: 100%;
+    float: left;
+    background-color: #2f3e51;
+    }
+  &__message{
+  margin: 0 auto;
+  height: 100%;
+  background-color: #fffacd;
+  }
+}
